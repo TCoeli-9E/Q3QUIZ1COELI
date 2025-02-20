@@ -1,0 +1,30 @@
+body{
+	background-color: #92AD94;
+	margin: auto;
+	font-family: "Rowdies", serif;
+	text-align: center;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+.container{
+	margin: auto;
+	background-color: #748B75;
+	float: 30%;
+	text-align: center;
+	padding: auto;
+}
+
+button{
+	background-color: #F5FBEF;
+}
+
+h1{
+	text-align: center;
+}
+
+.rowdies-regular {
+  font-family: "Rowdies", serif;
+  font-weight: 400;
+  font-style: normal;
+}
