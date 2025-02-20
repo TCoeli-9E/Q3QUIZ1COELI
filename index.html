@@ -18,11 +18,11 @@
 	<h2>Give two values!</h2>
         <label>A:</label>
         <br/>
-        	<input type="text" id="A-value" name="A">
+        	<input type="text" id="A-value" name="a">
         <br/><br/>
         	<label>b:</label>
         <br/>
-        	<input type="text" id="B-value" name="B">
+        	<input type="text" id="B-value" name="b">
         		<p id="remainder" class="mt-5"></p>
         		<p id="product" class="mt-5"></p>
         		<p id="exponent" class="mt-5"></p>
@@ -30,29 +30,29 @@
     </form>
     <script type="text/javascript">
            		function product() {
-              			var a = document.getElementById('a-value').value;
-            			var b = document.getElementById('b-value').value;
+              			var a = document.getElementById('A-value').value;
+            			var b = document.getElementById('B-value').value;
                 		var r_ans = a * b;
                 		var rr_ans = r_ans.toFixed(2); 
-                document.getElementById('product').innerHTML = 'it is "a multiplied by b = ' + rr_ans + '!"';    
+                document.getElementById('product').innerHTML = 'it is a multiplied by b = ' + rr_ans + '!"';    
             }
             	function remainder() {
-                		var a = document.getElementById('a-value').value;
-                		var b = document.getElementById('b-value').value;
+                		var a = document.getElementById('A-value').value;
+                		var b = document.getElementById('B-value').value;
                 		var r_ans = a % b;
                 		var rr_ans = r_ans.toFixed(2); 
-                document.getElementById('remainder').innerHTML = 'it is "remainder of a and b = ' + rr_ans + '!"';    
+                document.getElementById('remainder').innerHTML = 'it is remainder of a and b = ' + rr_ans + '!"';    
              } 
              	function exponent() {
-                		var a = document.getElementById('a-value').value;
-                		var b = document.getElementById('b-value').value;
+                		var a = document.getElementById('A-value').value;
+                		var b = document.getElementById('B-value').value;
                 		var r_ans = a ** b;
                 		var rr_ans = r_ans.toFixed(2); 
-                document.getElementById('exponent').innerHTML = 'it is "exponent of a and b = ' + rr_ans + '!"';    
+                document.getElementById('exponent').innerHTML = 'it is exponent of a and b = ' + rr_ans + '!"';    
              } 
             	function compare() {
-                		var a = document.getElementById('a-value').value;
-                		var b = document.getElementById('b-value').value;
+                		var a = document.getElementById('A-value').value;
+                		var b = document.getElementById('B-value').value;
                 		var r_ans = a < b;
                 document.getElementById('compare').innerHTML = 'it is' + r_ans + '!"';
             }    
